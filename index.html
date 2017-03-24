@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html PUBLIC>
+<html>
+   <head>
+      <title>Calculadora</title>
+      <link rel="stylesheet" type="text/css" href="calcu.css" />
+      <script type="text/javascript" src="calculadora.js"></script>
+      <meta charset="utf-8">
+   </head>
+   <body>
+      <h1> Calculadora </h1>
+      <div class="calculadora"
+      <form action="#" name="calculadora" id="calculadora">
+         <p id="textoPantalla">0</p>
+         <p>
+            <input type="button" class="largo" value="CE" onclick="borradoParcial()"   />
+            <input type="button" class="largo" value="C" onclick="borradoTotal()"  />
+         </p>
+         <p>
+            <input type="button" value="7" onclick="numero(7)" />
+            <input type="button" value="8" onclick="numero('8')" />
+            <input type="button" value="9" onclick="numero('9')" />
+            <input type="button" value="/" onclick="operar('/')"  />
+         </p>
+         <p>
+            <input type="button" value="4" onclick="numero('4')" />
+            <input type="button" value="5" onclick="numero('5')" />
+            <input type="button" value="6" onclick="numero('6')" />
+            <input type="button" value="*" onclick="operar('*')" />
+         </p>
+         <p>
+            <input type="button" value="1" onclick="numero('1')" />
+            <input type="button" value="2" onclick="numero('2')" />
+            <input type="button" value="3" onclick="numero('3')" />
+            <input type="button" value="-" onclick="operar('-')" />
+         </p>
+         <p>
+            <input type="button" value="0" onclick="numero('0')" />
+            <input type="button" value="." onclick="numero('.')" />
+            <input type="button" value="+" onclick="operar('+')" />
+            <input type="button" value="=" onclick="igualar()" />
+         </p>
+      </form>
+      </div>
+      <div class="Instrucciones">
+         <h1>Instrucciones del teclado: </h1>
+         <p>para introducir un número por teclado presione simplemente su tecla </p>
+         <p>para sumar presione la tecla "+"</p>
+         <p>para restar presione la tecla "-" </p>
+         <p>para mutiplicar presione la tecta "m" </p>
+         <p> para dividir presione la tecla "d" </p>
+         <p> para usar una coma decimal puede presionar tanto la tecla del punto "." como la de la coma "," </p>
+         <p> para obtener el resultado presione "intro" </p>
+         <p>para borrar el ultimo numero de la pantalla presione la "tecla retroceso"</p>
+         <p> para borrar el número completo presione la "barra espaciadora" </p>
+      </div>
+   </body>
+</html>
+
+
